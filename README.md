@@ -3,11 +3,11 @@
 #How to run the tests scenarios
 mvn clean install
 
-#Reports localtion
+Reports location
 
 Reports are located in the target folder: target/site/serenity/index.html
 
-#Support for any OS
+Support for multiple OS
 The project also bundles some of the WebDriver binaries that you need to run Selenium tests in the `src/test/resources/webdriver` directories. These binaries are configured in the `drivers` section of the `serenity.conf` config file:
 ```json
 drivers {
